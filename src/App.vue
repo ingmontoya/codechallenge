@@ -3,7 +3,7 @@ import { ref, computed, onBeforeMount } from 'vue';
 import CardData from './components/CardData.vue';
 
 const data = ref([]);
-const search = ref('hell');
+const search = ref('hello');
 const API_KEY = ref('pLURtkhVrUXr3KG25Gy5IvzziV5OrZGa');
 const URL = ref('http://api.giphy.com/v1/gifs/search');
 const defaultResults = ref(9);
